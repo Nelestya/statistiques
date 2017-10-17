@@ -4,5 +4,5 @@ from django.contrib.admin.views.decorators import staff_member_required
 
 app_name = 'statistiques'
 urlpatterns = [
-    url(r'^admin/order/(?P<ip>\d+)/$', staff_member_required(Admin_Stat_Ip.as_view()), name='admin_ip_detail'),
+    url(r'^admin/statistique/(?P<ip>\d+)/$', staff_member_required(Admin_Stat_Ip.as_view()), name='admin_ip_detail'),
 ]
