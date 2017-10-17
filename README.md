@@ -1,0 +1,2 @@
+# statistiques
+App for Django
