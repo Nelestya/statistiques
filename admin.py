@@ -12,6 +12,6 @@ def stats_ip_page(obj):
 stats_ip_page.allow_tags = True
 
 class IpadressAdmin(admin.ModelAdmin):
-    list_display = ['ip', stats_ip_page]
+    list_display = ['ip', 'created', stats_ip_page]
 
 admin.site.register(Ipadress, IpadressAdmin)
