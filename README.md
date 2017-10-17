@@ -35,7 +35,7 @@ git clone https://github.com/Nelestya/statistiques.git
 ```
 
 ## Authors
-* **Dlugosz Tristan** - *Initial work* - [statistiques](https://github.com/Nelestya/statistques)
+* **Dlugosz Tristan** - *Initial work* - [statistiques](https://github.com/Nelestya/statistiques)
 
 ## License
 
