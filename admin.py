@@ -11,5 +11,5 @@ def stats_ip_page(obj):
 order_detail.allow_tags = True
 
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ['id', 'first_name', 'last_name', 'email', 'address', 'postal_code', 'city', stats_ip_page]
-    list_filter = ['paid', 'created', 'updated']
+    list_display = ['ip', stats_ip_page]
+    
