@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Ipadress(models.Model):
-    ip = models.IPAddressField(primary_key=True)
+    ip = models.GenericIPAddressField(primary_key=True, protocol='both')
     created = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
